@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="card">
+    <h2>Select Payment Method</h2>
+
+    <h3>UPI</h3>
+    <button class="btn" onclick="pay('PhonePe')">PhonePe</button>
+    <button class="btn" onclick="pay('Google Pay')">Google Pay</button>
+    <button class="btn" onclick="pay('Paytm')">Paytm</button>
+
+    <h3>Card</h3>
+    <button class="btn" onclick="pay('Debit Card')">Debit Card</button>
+    <button class="btn" onclick="pay('Credit Card')">Credit Card</button>
+    <button class="btn" onclick="pay('RuPay Card')">RuPay Card</button>
+
+    <h3>Cash</h3>
+    <button class="btn" onclick="pay('Cash - Exact Amount')">Exact Amount</button>
+    <button class="btn" onclick="pay('Cash - Need Change')">Need Change</button>
+</div>
+
+</body>
+</html>
+
+
